@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gushwork Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Sticky Header -->
+<header id="stickyHeader">
+  <div class="header-flex">
+    <div class="logo">Company logo</div>
+    <div class="menu">Menu</div>
+  </div>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-flex">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="fold-section">
+  <h1>First fold section</h1>
+</section>
+
+<section class="content">
+  <p>Scroll down to see the sticky header</p>
+  <div style="height:50vh;"></div>
+</section>
+
+
+<div class="product-gallery">
+
+  <!-- Main Image -->
+  <div class="main-image-container">
+    <img id="mainImage" src="images/firstImage.jpg" alt="product">
+
+    <!-- Zoom Lens -->
+    <div class="zoom-lens" id="lens"></div>
+  </div>
+
+  <!-- Zoom Result -->
+  <div class="zoom-result" id="zoomResult"></div>
+
+</div>
+
+<!-- Thumbnail Carousel -->
+<div class="thumbnail-wrapper">
+  <button class="btn prev">&#10094;</button>
+
+  <div class="thumbnails">
+    <img src="images/firstImage.jpg" class="thumb active">
+    <img src="images/secondImage.jpg" class="thumb">
+    <img src="images/thirdImage.jpg" class="thumb">
+    <img src="images/forthImage.jpg" class="thumb">
+  </div>
+
+  <button class="btn next">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
